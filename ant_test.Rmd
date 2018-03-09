@@ -16,6 +16,8 @@ Short PCA example (commented out so you can see what happens one step at a time.
 library(corrplot)
 library(tidyverse)
 
+#I'm making some edits!
+
 ant_nutrients <- read_csv("ant_nutrients.csv")
 ant_df <- rename(ant_nutrients, Na = X1) # Rename because it thinks it's NA
 ```
